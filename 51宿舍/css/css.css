@@ -1,0 +1,308 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-size: 12px;
+	font-family: "宋体";
+	list-style: none;
+}
+
+a img {
+	border: 0;
+}
+
+a {
+	color: #333;
+	text-decoration: none;
+}
+
+.over {
+	overflow: auto;
+	zoom: 1;
+}
+
+.top {
+	border-bottom: 10px solid #0179B5;
+}
+
+.topcon {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.logo {
+	float: left;
+	width: 145px;
+}
+
+.logo img {
+	width: 145px;
+	height: 107px;
+}
+
+.topright {
+	float: left;
+	width: 855px;
+}
+
+.guild {
+	text-align: right;
+	line-height: 30px;
+}
+
+.tel {
+	font-family: "微软雅黑";
+	font-size: 16px;
+	text-align: right;
+	padding-right: 4px;
+}
+
+.tel i {
+	color: red;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.nav {
+	margin-top: 18px;
+	margin-left: 15px;
+}
+
+.nav li {
+	float: left;
+	width: 97px;
+	height: 35px;
+	line-height: 35px;
+	margin-right: 9px;
+}
+
+.nav li:last-child {
+	margin-right: 0;
+}
+
+.nav li a {
+	display: block;
+	width: 97px;
+	height: 35px;
+	line-height: 35px;
+	text-align: center;
+	color: #333;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.nav li:first-child a,
+.nav li a:hover {
+	background-color: #0179B5;
+	color: #fff;
+}
+
+.content {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.banner {
+	margin-top: 10px;
+	width: 1000px;
+	height: 420px;
+	overflow: hidden;
+	position: relative;
+}
+
+.banleft {
+	position: absolute;
+	left: 0;
+	top: 160px;
+	width: 47px;
+	height: 91px;
+	background: url(../img/left.png) no-repeat;
+	cursor: pointer;
+}
+
+.banright {
+	position: absolute;
+	right: 0;
+	top: 160px;
+	width: 47px;
+	height: 91px;
+	background: url(../img/right.png) no-repeat;
+	cursor: pointer;
+}
+
+.first {
+	margin-top: 15px;
+}
+
+.intro {
+	float: left;
+	width: 340px;
+	margin-right: 25px;
+}
+
+.introtit {
+	background: url(../img/img1.png) no-repeat left top;
+	height: 61px;
+	padding-left: 85px;
+}
+
+.introtit span,
+.newstit span,
+.contacttit span,
+.title span {
+	font-family: "微软雅黑";
+	font-size: 24px;
+	font-weight: normal;
+	color: #0D7FB8;
+	background: url(../img/bg4.png) no-repeat left bottom;
+	display: block;
+	padding: 15px 0px 3px 0px;
+}
+
+.word {
+	margin-top: 20px;
+	line-height: 22px;
+}
+
+.word p {
+	text-indent: 2em;
+}
+
+.news {
+	float: left;
+	width: 333px;
+}
+
+.newstit {
+	background: url(../img/img2.png) no-repeat left top;
+	height: 61px;
+	padding-left: 85px;
+}
+
+.newlist {
+	margin-top: 20px;
+	line-height: 22px;
+}
+
+.newlist li {
+	border-bottom: 1px dashed #ccc;
+	overflow: auto;
+	zoom: 1;
+}
+
+.newlist li a {
+	float: left;
+	width: 230px;
+	background: url(../img/bg3.png) no-repeat left center;
+	padding-left: 15px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.newlist li span {
+	float: right;
+	width: 88px;
+	text-align: right;
+}
+
+.contact {
+	float: right;
+	width: 269px;
+}
+
+.contacttit {
+	background: url(../img/img3.png) no-repeat left top;
+	height: 61px;
+	padding-left: 85px;
+}
+
+.contactdl {
+	margin-top: 20px;
+	line-height: 22px;
+	padding-left: 60px;
+}
+
+.title {
+	margin-top: 15px;
+	background: url(../img/bg1.png) repeat-x left bottom;
+}
+
+.title span {
+	float: left;
+	background: url(../img/bg2.png) repeat-x left bottom;
+	font-family: "微软雅黑";
+	font-size: 24px;
+	font-weight: normal;
+	color: #0D7FB8;
+	padding-bottom: 6px;
+	line-height: 30px;
+}
+
+.title a {
+	float: right;
+	font-family: arial;
+	color: #0D7FB8;
+	line-height: 30px;
+}
+
+.case {
+	margin-top: 15px;
+}
+
+.case a {
+	float: left;
+	width: 184px;
+	height: 145px;
+	padding: 3px;
+	border: 1px solid #CDCDCD;
+	margin-right: 10px;
+}
+
+.case a:last-child {
+	margin-right: 0px;
+}
+
+.case a img {
+	width: 184px;
+	height: 145px;
+}
+
+.partner {
+	margin-top: 15px;
+}
+
+.partner dl {
+	float: left;
+	width: 138px;
+	text-align: center;
+	margin-right: 5px;
+}
+
+.partner dl:last-child {
+	margin-right: 0;
+}
+
+.partner dl dt {
+	width: 136px;
+	height: 93px;
+	border: 1px solid #D1D1D1;
+	margin-bottom: 10px;
+}
+
+.partner dl dt img {
+	width: 136px;
+	height: 93px;
+}
+
+.footer {
+	background-color: #0179B5;
+	color: #fff;
+	text-align: center;
+	line-height: 24px;
+	margin-top: 30px;
+	padding: 15px 0;
+}
+
+.footer a {
+	color: #fff;
+}

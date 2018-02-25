@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>个性菜单列表</title>
+		<style type="text/css">
+			dl,
+			dt,
+			dd {
+				margin: 0;
+				padding: 0;
+			}
+			
+			dl {
+				width: 300px;
+				margin: 50px 0 0 50px;
+				color: #fff;
+				font-family: Arial, Helvetica, sans-serif;
+				font-size: 14px;
+				border-radius: 15px;
+				box-shadow: 0 0 10px #666;
+			}
+			
+			dl dt {
+				height: 60px;
+				line-height: 60px;
+				font-size: 16px;
+				background: url(img/1.png) no-repeat 20px center #373D4A;
+				padding-left: 40px;
+				border-radius: 15px 15px 0 0;
+			}
+			
+			dl dd {
+				height: 50px;
+				line-height: 50px;
+				padding-left: 20px;
+				cursor: pointer;
+				transition: all 0.5s ease 0s;
+			}
+			
+			dl dd:hover {
+				transform: scale(1.06);
+				box-shadow: 1px 1px 4px #333;
+			}
+			
+			dl dd span {
+				display: inline-block;
+				width: 20px;
+				height: 20px;
+				text-align: center;
+				line-height: 20px;
+				color: #C24448;
+				background-color: #fff;
+				border-radius: 100%;
+				margin-right: 10px;
+			}
+			
+			dl dd:first-of-type {
+				background-color: #FA6855;
+			}
+			
+			dl dd:nth-of-type(2) {
+				background-color: #E0574F;
+			}
+			
+			dl dd:nth-of-type(3) {
+				background-color: #D7514D;
+			}
+			
+			dl dd:nth-last-of-type(2) {
+				background-color: #CD4B4B;
+			}
+			
+			dl dd:last-child {
+				background-color: #C24448;
+				border-radius: 0 0 15px 15px;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div>
+			<dl>
+				<dt>Most active Players</dt>
+				<dd><span>1</span> Jerry Wood</dd>
+				<dd><span>2</span> Brandon Barnes</dd>
+				<dd><span>3</span> Raymond Knight</dd>
+				<dd><span>4</span> Trevor McCormick</dd>
+				<dd><span>5</span> Andrew Fox</dd>
+			</dl>
+		</div>
+	</body>
+
+</html>
